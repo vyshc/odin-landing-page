@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background-color: #03054f; /* blue */
+    color: #03054f;
+}
+
+h1, h2{
+    font-family: "Bangers";
+}
+
+nav{
+    background-color: #03054f; /* blue */
+    color: #77B300; /* grass-green */
+}
+
+header{
+    background-color: #03054f; /* blue */
+    color: #77B300; /* grass-green */
+}
+
+#featured-plants {
+    background-color: #67C8FF; 
+}
+
+#benefits{
+    background-color: #A0A0A0;
+
+}
+
+#testimonials{
+    background-color: #67C8FF;
+
+}
+
+#cta{
+    background-color: #A0A0A0;
+}
+
+footer {
+    background-color: #03054f; /* blue */
+    color: #77B300; /* grass-green */
+}
+
+button{
+    background-color: #FFDD00;
+}
