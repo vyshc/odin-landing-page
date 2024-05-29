@@ -3,50 +3,182 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    font-size: 16px;
 }
 
 body{
     background-color: #03054f; /* blue */
     color: #03054f;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 h1, h2{
     font-family: "Bangers";
+    margin: 8px 0;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 36px;
+    text-align: center;
+}
+
+h3{
+    font-size: 24px;
+    text-align: center;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+button{
+    background-color: #FFDD00;
+    font-size: 18px;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+
+ul{
+    list-style-type: none;
 }
 
 nav{
     background-color: #03054f; /* blue */
     color: #77B300; /* grass-green */
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}    
+
+nav > img{
+    max-height: 80px;
+    margin-right: auto;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
 header{
     background-color: #03054f; /* blue */
     color: #77B300; /* grass-green */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+}
+
+header > .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.right{
+    flex:1;    
+}
+
+.container > img{
+    max-height: 200px;
 }
 
 #featured-plants {
-    background-color: #67C8FF; 
+    background-color: #67C8FF;  
+    padding: 48px 0;
 }
 
-#benefits{
+.card-group{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 0;
+    flex-wrap: wrap;
+}
+
+.plant-card{
+    padding: 36px;
+    margin: 8px;
+    text-align: center;
+    border: solid 1px #FFDD00;
+}
+
+.plant-card > img{
+    max-height: 200px;
+}
+
+.plant-card > ul{
+    list-style-type: none;
+}
+
+/* #benefits{
     background-color: #A0A0A0;
-
-}
+} */
 
 #testimonials{
-    background-color: #67C8FF;
+    background-color: #A0A0A0;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+#testimonials > div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+#testimonials > div > p{
+    align-self: flex-start;
+}
+
+#testimonials > div > span{
+    align-self: flex-end;
 }
 
 #cta{
-    background-color: #A0A0A0;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
+
+#cta > div{
+    max-width: 900px;
+    background-color: #67C8FF;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 footer {
     background-color: #03054f; /* blue */
     color: #77B300; /* grass-green */
+    padding: 48px;
 }
 
-button{
-    background-color: #FFDD00;
+footer > ul{
+    display: flex;
+    justify-content: space-evenly;
 }
